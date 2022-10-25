@@ -1,0 +1,57 @@
+
+
+
+
+.navbar li{
+
+    list-style: none;
+    display:inline-block;
+    
+    margin:auto;
+    }
+    .navbar-text{padding-right: 90px;
+       
+    }
+    
+    .f{
+        padding-left: 20px;
+        border-radius:none;
+        border: 1px solid gray;
+    
+    margin-left: 7px;
+    margin-top: 7px;
+    padding-right: 20px;
+    } 
+    .navbar li a{
+    text-decoration: none;
+    color:white;
+    font-size: 18px;
+    padding:8px 20px;
+    }
+    
+    .navbar li a:hover{
+    
+    border: darkmagenta;
+    border-radius: 2px;
+    font-size: 20px;
+    }
+    
+    .navbar li a:active{
+    
+    border-radius: 5px;
+    }
+    
+    
+    
+    
+    
+    .btn {
+        background-color: dark;
+        margin-right: 20px;
+        transition: 0.3s;
+      }
+      
+      .btn:hover {
+        background-color:blue;
+        color: white;
+      }

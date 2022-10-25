@@ -1,0 +1,107 @@
+sec {
+    padding: 2rem 0;
+  }
+  
+  .label {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px dotted black;
+    border-radius: 12px;
+    width: 11rem;
+    height: 4rem;
+    cursor: pointer;
+    font-size: large;
+  }
+  
+  .span {
+    font-weight: lighter;
+    font-size: small;
+  }
+  
+  .input {
+    display: none;
+  }
+  
+  .img {
+    padding: 0;
+    margin: 0;
+    border-radius: 15px;
+  }
+  
+  .images {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image {
+    margin: 1rem 1rem;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+  }
+  
+  .image button {
+    position: absolute;
+   
+    right: 0;
+    position: absolute;
+    
+    border: none;
+    height: 1.2rem;
+    /* background-color: white; */
+  }
+  
+  /* .image button:hover {
+    background-color: red;
+  } */
+  
+  .image .para {
+    padding: 0 0.5rem;
+    margin: 0;
+    text-align: center;
+  }
+  /* .btn1{
+  
+  } */
+  .upload-btn {
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    width: 10rem;
+    height: 3rem;
+    color: white;
+    font-size: 11px !important;
+    font-weight: bold;
+    background-color: green
+  }
+  
+  .labe:hover,
+  .upload-btn:hover {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 1px 3px,
+      rgba(0, 0, 0, 0.05) 0px 1px 1px 2px;
+  }
+  
+  .error-msg {
+   
+    text-align: center;
+  }
+  
+  .error-msg .apan {
+  
+    color: red;
+  }
+  .style{
+  margin-top: 0px;
+  padding-top: 1px;
+  padding-left: 3px;
+  height: 19px;
+  width: 0px !important;
+  background: red;
+  border-radius: 10px !important;
+  color: white;
+  }

@@ -1,0 +1,92 @@
+.y{
+    background-image: url('https://image.arrivalguides.com/500x500/19/76f970773b13dac38662e4464d797e04.jpg');
+
+  
+
+	
+	background-size: cover;
+
+	
+
+	
+	
+}
+.b{border: 1px dotted black;
+background-color:  magenta ;}
+
+  .c{
+   position: absolute;
+  
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+margin-left: 28%;
+margin-right:28% ;
+    height: 370px;
+margin-top: 5px;
+    background-color: white;
+    
+border: 1px solid black;}
+
+
+
+
+
+
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: blue;
+  }
+  
+  
+  .container {
+    border-radius: 5px;
+    background-color: auto;
+    padding: 10px;
+  }
+  
+
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }

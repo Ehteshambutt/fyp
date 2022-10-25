@@ -1,0 +1,42 @@
+.t{border: 2px solid pink;
+    background-color: aqua;}
+.l{background-color: blue;
+  
+   align-items: right;
+   
+   position:absolute;
+  
+   margin-left: 600px;
+
+  
+ border-radius: 50%;
+ 
+   border: 5px solid yellow;
+}
+.r{border: 2px solid yellow;
+border-radius: 50%;
+float: center;}
+#customerPhrase {
+  font-size: 1rem;
+  font-weight: 900;
+  color: #53131e;
+}
+
+.s1{background-color: magenta;
+text-align: center;}
+
+#about {
+  font-size: 18px;
+}
+
+
+.about {
+margin-left: calc(80% / 50%);
+margin-right: calc(80% / 50%);
+font-family: muli;
+}
+
+#about {
+color: #53131e;
+font-size: 26px;
+}
